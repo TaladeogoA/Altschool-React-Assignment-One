@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+main {
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+  background-color: #1a1d24;
+  color: white;
+  height: 80vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen {
+  background-color: #14171e;
+  color: white;
+  font-size: 2rem;
+  height: 30%;
+  text-align: right;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen input {
+  background-color: #14171e;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  text-align: right;
+  border: none;
+  margin-bottom: 10px;
+  height: 40%;
+}
+
+.screen input:focus {
+  outline: none;
+}
+
+.screen div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60%;
+}
+
+.screen div p:first-child {
+  font-size: 1rem;
+}
+
+.btn-wrapper {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 70%;
+}
+
+input.btn {
+  background-color: #1a1d24;
+  border: none;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input.btn:hover {
+  background-color: #2a2d34;
+}
+
+input.btn.btn-sign {
+  background-color: #14171e;
+  color: #1ec76e;
+}
+
+input.btn.btn-sign:hover {
+  background-color: #2a2d34;
+}
+
+input.btn.btn-divide {
+  border-radius: 10px 10px 0 0;
+}
+
+input.btn.btn-plus {
+  border-radius: 0 0 10px 10px;
+}
+
+input.btn.btn-equal {
+  background-color: #1ec76e;
+  border-radius: 10px;
+  color: #14171e;
+  margin-top: 15px;
+}
+
+input.btn.btn-equal:hover {
+  background-color: #2ad77e;
+}
+
+input.btn.btn-empty:hover {
+  background-color: #1a1d24;
+  cursor: default;
+}
